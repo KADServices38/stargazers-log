@@ -1,14 +1,85 @@
-body {
-  font-family: sans-serif;
-  margin: 10rem;
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
+body{
+    background-color: aqua;
 }
 
-li {
-  padding: 0.5rem 0;
-  border-bottom: 1px solid #ddd;
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: auto;
+    max-width: 1200px;
+    flex-direction: column;
 }
+.navigator ul{
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+    font-size: 2rem;
+}
+
+.navigator a{
+    text-decoration: none;
+    color: black;
+}
+.navigator a:hover{
+    text-decoration: underline;
+    color: rgb(8, 164, 175);
+}
+
+hr{
+    opacity: 10;
+}
+
+.hero {
+    /*display: flex;*/
+    align-items: center;
+      margin: srem auto;
+      text-align: center;
+      padding: 20px 20px;
+      background-color: rgb(170, 115, 31);
+     
+}
+.hero h1{
+font-size: 2.5rem;
+background-color: rgb(216, 112, 112);
+}
+.hero p{
+    font-size: 1.5rem;
+    background-color: rgb(116, 116, 173);
+}
+.heartbeat-line span{
+font-size: 2rem;
+}
+
+.slideshow {
+      text-align: center;
+      margin: 20px 1;
+      background-color: white;
+}
+.bildanpassen{
+    max-block-size: 300px;
+    max-inline-size: 500px;
+}
+.slogan{
+    font-size: 2rem;
+    display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin: 20px 0;
+      font-weight: bold;
+      background-color: rgb(146, 97, 211);
+}
+
+
+
+
+
